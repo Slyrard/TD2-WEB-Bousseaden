@@ -1,0 +1,92 @@
+
+/*
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+*/
+
+
+/*CSS commun aux 3 page*/
+nav {
+	background-color:teal;
+}
+
+nav a{
+	color:white;
+	text-decoration:none;
+}
+nav ul{
+	border-top-style:solid;
+	border-top-width: 3px;
+	border-bottom-style:solid;
+	border-bottom-width: 3px;
+	display: flex;
+	justify-content: center;
+	list-style-type:none;
+	font-size: 150%;
+}
+
+nav li{
+	margin-left:5%;
+	padding : 2%;
+}
+
+.haut h1{
+	text-align:center;	
+	border: solid;
+	width: 100%;
+	border-radius: 30px;
+}
+
+.copyright{
+	border-top-style:solid;
+	border-top-width: 3px;
+	display:flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+
+h2{
+	border-bottom-style:solid;
+	border-bottom-width: 1px;
+}
+
+
+/*CSS du la page home*/
+.contact{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+} 
+
+.p_text{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*CSS de la page cv*/
+
+#etat-civil{
+	display:flex;
+	   justify-content: space-between;
+}
+
+#etat-civil p{
+	margin-left:5%;
+}
+
+#descib {
+	display:flex;
+	flex-direction:column;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+h4{
+	border-bottom-style:solid;
+	border-bottom-width: 1px;
+}
+
